@@ -1,0 +1,12 @@
+.site-header-notice {
+    button {
+        &.is-primary-invert {
+            border-color: $white !important;
+
+            &:hover,
+            &:focus {
+                border-color: $white !important;
+            }
+        }
+    }
+}

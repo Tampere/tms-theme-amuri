@@ -1,0 +1,34 @@
+.share-links,
+.entry__share-links {
+    h2 {
+        text-transform: none;
+        font-weight: 400;
+    }
+
+    a {
+        &,
+        &.has-background-accent {
+            &,
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: $primary-invert !important;
+                border: 1px solid $primary-invert !important;
+
+                .icon {
+                    fill: $primary !important;
+                }
+            }
+        }
+    }
+}
+
+.entry__share-links {
+    h2 {
+        text-align: center;
+    }
+
+    .share-links {
+        justify-content: center;
+    }
+}
